@@ -1,0 +1,1 @@
+{"version":3,"file":"frontend/test-style.css","mappings":";;;AAAA;CACC,yBAAyB;CACzB,cAAc;CACd,eAAe;AAChB","sources":["webpack://zs-test-plugin/./src/frontend/test-style.css"],"sourcesContent":[".awesome-site-name-wrapper {\n\tbackground-color: #34495e;\n\tcolor: #ecf0f1;\n\tpadding: 0.5rem;\n}\n"],"names":[],"sourceRoot":""}

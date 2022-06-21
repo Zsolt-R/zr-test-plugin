@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "zr/awesome-site-name",
+	"title": "Awesome Site Name",
+	"description": "Show your website name with a prefix",
+	"category": "common",
+	"icon": "superhero",
+	"supports": {
+		"anchor": false,
+		"html": false,
+		"align": []
+	},
+	"keywords": ["test", "awesome", "sitename"],
+	"attributes": {
+		"prefix": {
+			"type": "string"
+		}
+	},
+	"style": "file:../../../build/blocks/awesome-site-name/style.css",
+	"editorStyle": "file:../../../build/blocks/awesome-site-name/editor.css",
+	"editorScript": "file:../../../build/blocks/awesome-site-name/index.js"
+}

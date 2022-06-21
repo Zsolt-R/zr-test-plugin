@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/awesome-site-name/editor.css","mappings":";;;AAAA,uBAAuB;AACvB;CACC,UAAU;AACX","sources":["webpack://zs-test-plugin/./src/blocks/awesome-site-name/editor.css"],"sourcesContent":["/* Editor styles here */\n.test{\n\tcolor:blue;\n}\n"],"names":[],"sourceRoot":""}
