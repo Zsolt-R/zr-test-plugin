@@ -17,7 +17,7 @@ add_shortcode( 'awesome_sitename', __NAMESPACE__ . '\\awesome_sitename' );
  * @param  array $attributes The prefix.
  * @return string The result.
  */
-function awesome_sitename( array $attributes ) : string {
+function awesome_sitename( $attributes = [] ){ // phpcs:ignore
 	$prefix = $attributes['prefix'] ?? '';
 
 	$site_title = get_bloginfo( 'name' );
