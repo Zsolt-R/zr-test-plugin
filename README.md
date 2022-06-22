@@ -1,5 +1,6 @@
 # ZR Test Plugin
 Adds a Gutenberg block that prints the site name prefixed by a string.
+After activating the plugin remember to flush permalinks.
 
 ## Installation 
 use npm `>= 16`
