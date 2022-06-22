@@ -6,6 +6,11 @@ After activating the plugin remember to flush permalinks.
 use npm `>= 16`
 Run `npm i && npm run build` from root.
 
+## Usage
+For the gutenberg blockr just search for "test / awesome / sitename" \
+Shorcode: ``[awesome_sitename prefix="Awesome"]``
+
+
 ## Api 
 Get a list of posts by accessing `https://yoursite.com/wp-json/zr-test-plugin/v1/books`
 This will return a list of formatted posts
