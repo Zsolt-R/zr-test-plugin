@@ -7,6 +7,9 @@
  * Author URI:      https://zsoltrevay.com
  * Text Domain:     zr-test-plugin
  * Version:         1.0.0
+ * Requires at least: 5.9
+ * Tested up to: 6.0
+ * Requires PHP: 7.4.1
  *
  * @package zr_test_plugin
  */
@@ -29,6 +32,7 @@ require_once __DIR__ . '/inc/setup/setup-frontend.php';
 require_once __DIR__ . '/inc/setup/setup-blocks.php';
 require_once __DIR__ . '/inc/meta/meta.php';
 require_once __DIR__ . '/inc/api/api.php';
+require_once __DIR__ . '/inc/shortcodes/shortcodes.php';
 
 /**
  * Load the plugin text domain.

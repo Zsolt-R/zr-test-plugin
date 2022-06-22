@@ -16,7 +16,17 @@ namespace ZR\TestPlugin\AwesomeSiteName;
  * @return string
  */
 function template( array $arguments ): string {
-	return 'This is the plugin';
+
+	$prefix     = $arguments['prefix'] ?? '';
+	$site_title = get_bloginfo( 'name' );
+
+	$result = sprintf(
+		'<div class="zr-awesome-site-name"><span>%s %s</span></div>',
+		esc_attr( $prefix ),
+		$site_title
+	);
+
+	return $result;
 }
 
 /**

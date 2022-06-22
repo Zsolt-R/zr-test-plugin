@@ -1,1 +1,1 @@
-{"version":3,"file":"blocks/awesome-site-name/style.css","mappings":";;;AAAA,sBAAsB;AACtB;CACC,UAAU;AACX","sources":["webpack://zs-test-plugin/./src/blocks/awesome-site-name/style.css"],"sourcesContent":["/* Block styles here */\n.test{\n\tcolor:blue;\n}\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"blocks/awesome-site-name/style.css","mappings":";;;AAAA,sBAAsB","sources":["webpack://zs-test-plugin/./src/blocks/awesome-site-name/style.css"],"sourcesContent":["/* Block styles here */\n"],"names":[],"sourceRoot":""}
